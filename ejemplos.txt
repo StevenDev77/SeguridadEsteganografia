@@ -1,0 +1,7 @@
+Consulta README.md para los comandos actualizados.
+
+Resumen:
+  python codigo\stego_demo.py extract medios\tierra_esteganografia.png "Tierra-2026"
+  python codigo\stego_demo.py extract medios\astronauta_esteganografia.png "Astronauta-2026"
+  ffmpeg -i medios\astronauta_consola.mkv -frames:v 1 medios\consola_001.png
+  python codigo\stego_demo.py extract medios\consola_001.png "Orion-2026"
